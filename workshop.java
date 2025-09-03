@@ -17,9 +17,10 @@ public class Main{
         }
         double average = (double) total / borrowings.length;
         String[] days = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-        System.out.println("📚 Total books borrowed: " + total);
-        System.out.println("📈 Highest borrowings on: " + days[maxDay] + " (" + max + " books)");
-        System.out.println("🏖️ Was there a holiday? " + (holiday ? "Yes" : "No"));
+        System.out.println("Total books borrowed: " + total);
+        System.out.println("Highest borrowings on: " + days[maxDay] + " (" + max + " books)");
+        System.out.println("Was there a holiday? " + (holiday ? "Yes" : "No"));
         System.out.printf("Average daily borrowings: %.2f\n", average);
     }
+
 }
